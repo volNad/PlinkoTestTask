@@ -24,12 +24,6 @@ Develop a **whitepage app** that loads external URLs inside a WebView and suppor
   - `currentContent`: The current URL loaded in the WebView  
   - `entryNavigation`: Defines the app entry point (`menu` for game menu, `content` for WebView)
 
-- ✅ **Modern Android Architecture**  
-  - XML-based layouts  
-  - Navigation Components for smooth in-app navigation  
-  - Material UI Components for consistent styling  
-  - Custom animations and transitions for polished UX
-
 ---
 
 ## 🔧 Tech Stack

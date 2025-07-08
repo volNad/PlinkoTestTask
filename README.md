@@ -48,6 +48,11 @@ Develop a **whitepage app** that loads external URLs inside a WebView and suppor
 To test different configurations remotely via Firebase Remote Config, please **send me your email address** linked to your Google account.  
 I will add you as a tester with permissions to update Remote Config parameters, allowing you to switch between the WebView and stub modes dynamically in the test app.
 
+### 🔄 Remote Config Fetch Behavior
+
+The app fetches updated Remote Config values **at most once per hour** or whenever the app’s cache is cleared.  
+This means changes to `currentContent` or `entryNavigation` may take up to an hour to reflect on the device unless the cache is manually cleared.
+
 ## 📝 Notes
 
 - This app is deliberately designed to work effectively against Google’s static analysis mechanisms to bypass moderation.
